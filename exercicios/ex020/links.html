@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+
+/* LEITORES PERSONALISADOS 
+#  =   ID
+.  =  CLASS
+:  =  PSEUDO-CLASS
+:: =  PSEUDO-ELEMENT
+>  =  CLIDREN
+*/
+
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(97, 19, 19);
+}
+ a:hover{
+color: black;
+text-decoration: underline;
+ }
+ a:active{
+color: yellow;
+ }
+
+ .especial::before{
+content: ' →';
+
+ }
+
+ .especial::after{
+     content: ' ←';
+
+ }
+
+ .especial{
+background-color: rgb(48, 1, 1);
+
+
+ }
+
+
+</style>
+
+
+
+</head>
+<body>
+<h1>PERSONALIZANDO LINKS</h1>
+<ul>
+<li> <a href="https://gustavoguanabara.github.io" target="blank">REPOSITORIO GIT HUB</a></li>
+<li> <a href="https://youtube.com/cursoemvideo/ "  class="especial" target="blank">CANAL YOUTUBE</a></li>
+<li> <a href="https://www.cursoemvideo.com" target="blank" > SITE CURSOEMVIDEO</a></li>
+
+</ul>
+
+    
+</body>
+</html>
