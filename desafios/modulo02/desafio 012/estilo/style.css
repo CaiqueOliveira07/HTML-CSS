@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'html';
+    src: url('../fonte/MADEAvenuePERSONALUSE-Regular.otf') format('opentype') ;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url('../fonte/October\ Rose\ -\ Personal\ Use.otf') format('opentype') ;
+}
+
+@font-face {
+    font-family: 'texto';
+    src: url('../fonte/Homemade\ Sausage.ttf') format('truetype') ;
+}
+
+:root{
+
+--fontehtml: 'html',  Arial, Helvetica, sans-serif;
+--fontetitulo: 'titulo' , Times, serif;
+--fontetexto: 'texto',  Verdana, sans-serif;
+
+
+
+}
+
+
+
+
+
+
 *{
     margin: 0px;
     padding:0px;
@@ -8,15 +38,22 @@
 html, body{
 min-height: 100vh;
     background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
+   
 }
 header > h1 {
     padding: 50px;
     font-variant: small-caps;
+font-family: var(--fontetitulo);
+font-size: 10vw;
+
+      
 }
 header > p {
     padding-bottom: 50px;
@@ -25,6 +62,8 @@ header > p {
         color: white;
         text-decoration: none;
         font-weight: bolder;
+       
+        
     }
 
     header a,footer a {
@@ -36,6 +75,7 @@ color: white;
                 padding-top: 10vh;
                 padding-bottom: 10vh;
                 line-height: 2em;
+               font-family: var(--fonte3);
             }
 
             section.normal{
@@ -45,11 +85,21 @@ color: white;
             section.imagem{
                 background-color: rgb(21, 21, 21);
                 color: white;
+                display: inline-block;
             }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.203);
-    width: 400px;
+    display: inline-block;
+    padding: ;
+    
 }
+p{
+    font-family: var(--fontetexto);
+ 
+
+
+}
+
 footer{
     background-color: black;
     text-align: center;
