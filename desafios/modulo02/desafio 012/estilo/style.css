@@ -31,14 +31,16 @@
 
 
 *{
-    margin: 0;
-    padding:0;
+    margin: 0px;
+    padding:0px;
 }
 
-html, body{
+html , body {
     min-height: 100vh;
-        
-    }
+background-color: rgb(255, 254, 254);
+ font-family:var(--fontehtml) ;
+
+}
 
 
 header{
@@ -48,7 +50,7 @@ header{
    
 }
 header > h1 {
-    padding: 50px;
+    padding-top: 50px;
     font-variant: small-caps;
 font-family: var(--fontetitulo);
 font-size: 10vw;
@@ -76,10 +78,9 @@ color: white;
                 padding-left: 30px;
                 padding-top: 10vh;
                 padding-bottom: 10vh;
-                line-height: 2em;
-                
-
+                line-height: 2em;            
                font-family: var(--fonte3);
+              
                
             }
 
@@ -87,39 +88,48 @@ color: white;
                 background-color: white;
                 color: black;
             }
-            section.imagem{
+            section.imagem > p {
                 background-color: rgba(15, 17, 15, 0.702);
                 color: white;
                 display: inline-block;
                 width: auto;
+                background-size: cover;
+                background-position: right;
+                
                 
             }
-section.imagem > p 
-{
-    background-color: rgba(0, 0, 0, 0.203);
-    display: inline-block;
-    padding: 5px;
-   width: 400px;
-    
-}
-section > p {
 
-    padding-bottom: 2em;
-}
-section.normal{
-padding-bottom: 2em;
 
-}
+
+
+            
+            section.imagem > p 
+            {
+
+            background-color: rgba(10, 10, 10, 0.203);
+            display: inline-block;
+            padding: 7px;
+            
+            }
+
+            section > p {
+
+            padding-bottom: 2em;
+            }
+
 
 section#img01{
+   
 background-image: url('../pacote-d012/imagens/background001.jpg');
 background-position: right center ;
+background-size: cover;
 
 }
 
 section#img02{
     background-image: url('../pacote-d012/imagens/background002.jpg');
     background-position:  right center;
+    background-size: cover;
 
 }
 
