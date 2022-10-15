@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS GRANDES</title>
+    <style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+    }
+    td, th{
+        border: 1px solid black;
+        padding: 10px;
+        
+    }
+    td.habitantes{
+        text-align: right;
+    }
+    thead{
+        background-color:slategray;
+        color: white;
+    }
+thead > tr > th{
+position: sticky;
+top: -1px;
+background-color:slategray ;
+
+}
+
+    caption{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+font-weight: bold;
+padding: 5px;
+background-color: black;
+color: white;
+    }
+    tbody > tr:nth-child(2n){
+        background-color: rgba(33, 32, 33, 0.316);
+    }
+
+    tfoot{
+        background-color:slategray ;
+        color: white;
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1>PRATICANDO NA CRIAÇÃO DE TABELAS GRANDES</h1>
+
+    <table>
+        <caption>POPULAÇÃO DAS UNIDADES FEDERATIVAS</caption>
+<thead>
+<tr>
+<th>ESTADO</th>
+<th style="width:40px ;">POPULAÇÃO</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>SÃO PAULO</td>
+<td class="habitantes">46 649 132</td>
+</tr>
+<tr>
+<td>MINAS GERAIS</td>
+<td class="habitantes">21 411 923</td>
+</tr>
+<tr>
+<td>RIO DE JANEIRO</td>
+<td class="habitantes">17 463 349</td>
+</tr>
+<tr>
+<td>BAHIA</td>
+<td class="habitantes">14 985 284</td>
+</tr>
+<tr>
+<td>PARANÁ</td>
+<td  class="habitantes" >11 597 484</td>
+</tr>
+<tr>
+<td>RIO GRANDE DO SUL</td>
+<td class="habitantes" >11 466 630</td>
+</tr>
+<tr>
+<td>PERNANBUCO</td>
+<td class="habitantes" >9 674 793</td>
+</tr>
+<tr>
+<td>CEARÁ</td>
+<td class="habitantes" >9 240 580</td>
+</tr>
+<tr>
+<td>PARÁ</td>
+<td class="habitantes" >8 777 124</td>
+</tr>
+<tr>
+<td>SANTA CATARINA</td>
+<td class="habitantes" >7 338 473</td>
+</tr>
+<tr>
+<td>GOIÁS</td>
+<td class="habitantes">7 206 589</td>
+</tr>
+<tr>
+<td>MARANHÃO</td>
+<td class="habitantes">7 153 262</td>
+</tr>
+<tr>
+<td>AMAZONAS</td>
+<td class="habitantes">4 269 995</td>
+</tr>
+<tr>
+<td>ESPÍRITO SANTO</td>
+<td class="habitantes">4 108 508</td>
+</tr>
+<tr>
+<td>PARAIBA</td>
+<td class="habitantes">4 059 905</td>
+</tr>
+<tr>
+<td>MATO GROSSO</td>
+<td  class="habitantes" >3 567 234</td>
+</tr>
+<tr>
+<td>RIO GRANDE DO NORTE</td>
+<td class="habitantes" >3 560 903</td>
+</tr>
+<tr>
+<td>ALAGOAS</td>
+<td class="habitantes" >3 365 351</td>
+</tr>
+<tr>
+<td>PIAUÍ</td>
+<td class="habitantes" >3 289 290</td>
+</tr>
+<tr>
+<td>DISTRITO FEDERAL</td>
+<td class="habitantes" >3 094 325</td>
+</tr>
+<tr>
+<td>MATO GROSSO DO SUL</td>
+<td class="habitantes" >2 839 188</td>
+</tr>
+<tr>
+<td>SERGIPE</td>
+<td class="habitantes">2 338 474</td>
+</tr>
+<tr>
+<td>RONDÔNIA</td>
+<td class="habitantes">1 815 278</td>
+</tr>
+<tr>
+<td>TOCANTINS</td>
+<td class="habitantes">1 607 363</td>
+</tr>
+<tr>
+<td>ACRE</td>
+<td class="habitantes">906 876</td>
+</tr>
+<tr>
+<td>AMAPÁ</td>
+<td class="habitantes">877 613</td>
+</tr>
+<tr>
+<td>RORAIMA</td>
+<td class="habitantes">652 713</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+<td>TOTAL DE ABITANTES</td>
+<td class="habitantes">201.851.009</td>
+</tr>
+
+</tfoot>
+
+
+
+
+    </table>
+
+
+    
+</body>
+</html>
