@@ -15,59 +15,76 @@
             border-collapse: collapse;
         }
 
-        th, td {
+        th,td {
             border: 1px solid black;
             padding: 1px;
             text-align: left;
+            font-size: large;
+            
         }
-     
+        tr.cinza{
+            background-color: rgb(32, 31, 31);
+            color: white;
+        }
+        th#notas{
+           text-align: center;
+        }
+
     </style>
 
 </head>
 
 <body>
     <table>
-        <thead>
-            
-            <tr>
-                <th rowspan="2">AREA</th>
-                <th >DISCIPLINAS</th>
-                <th colspan="2">NOTAS</th>
-                <th rowspan="2">MEDIAS</th>
-                </tr>
-              
 
-              
-        </thead>
         <tbody>
-            <tr>
-                <th rowspan="4" >EXATAS</th>
-                <td >matematica</td>
+            <tr class="cinza">
+                <th rowspan="2">AREA</th>
+                <th rowspan="2">DISCIPLINAS</th>
+                <th id="notas" colspan="2">NOTAS</th>
+                <th rowspan="2">MEDIAS</th>
+
+            </tr>
+
+
+
+            <tr class="cinza">
+
+
                 <th>nota 1</th>
-                <th>nota2</th>
-             
-                
+                <th>nota 2</th>
+
+
+
+            </tr>
+            <tr>
+                <th rowspan="4">EXATAS</th>
+                <td>matematica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+
             </tr>
             <tr>
                 <td>fisica</td>
                 <td>0,0</td>
                 <td>0,0</td>
                 <td>0,0</td>
-                
             </tr>
+
             <tr>
                 <td>quimica</td>
                 <td>0,0</td>
                 <td>0,0</td>
                 <td>0,0</td>
-                
+
             </tr>
             <tr>
                 <td>biologia</td>
                 <td>0,0</td>
                 <td>0,0</td>
                 <td>0,0</td>
-                
+
             </tr>
 
 
@@ -75,29 +92,29 @@
 
         </tbody>
 
-        
+
+        <tr class="cinza">
+            <th colspan="4">MEDIA DE EXATAS</th>
+            <td>0,0</td>
+        </tr>
+
+        <tbody>
+            <th rowspan="2">HUMANAS</th>
+            <td>historia</td>
+            <td>0,0</td>
+            <td>0,0</td>
+            <td>0,0</td>
             <tr>
-                <th colspan="4" >MEDIA DE EXATAS</th>
+                <td>geografia</td>
+                <td>0,0</td>
+                <td>0,0</td>
                 <td>0,0</td>
             </tr>
-        
-        <tbody>
-<th rowspan="2" >HUMANAS</th>
-<td>historia</td>
-<td>0,0</td>
-<td>0,0</td>
-<td>0,0</td>
-<tr>
-    <td>geografia</td>
-    <td>0,0</td>
-    <td>0,0</td>
-    <td>0,0</td>
-</tr>
 
         </tbody>
 
-        <tr>
-            <th colspan="4" >MEIDA DE HUMANAS</th>
+        <tr  class="cinza">
+            <th colspan="4">MEIDA DE HUMANAS</th>
             <td>0,0</td>
         </tr>
 
