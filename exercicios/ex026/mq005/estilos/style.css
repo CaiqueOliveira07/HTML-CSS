@@ -18,9 +18,22 @@ header > h1 {
     padding: 10px;
 text-align: center;
 }
+span#menu{
+    background-color: rgba(0, 0, 0, 0.423);
+    display: block;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+span#menu:hover{
+
+    background-color: white;
+    color: black;
+}
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul {
